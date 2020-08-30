@@ -1,10 +1,10 @@
 {{-- NAVIGATION --}}
 <nav>
     <ul>
-        <li class=" {{setActive('home') }}"><a href="{{ route('home') }}">Home</a></li>
-        <li class=" {{setActive('contact')}}"><a href="{{ route('contact') }}">Contact</a></li>
-        <li class=" {{setActive('portfolio')}}"><a href="{{ route('portfolio') }}">Portfolio</a></li>
-        <li class=" {{setActive('about')}}"><a href="{{ route('about') }}">About</a></li>
+        <li class=" {{setActive('home') }}"><a href="{{ route('home') }}"> @lang('Home') </a></li>
+        <li class=" {{setActive('contact')}}"><a href="{{ route('contact') }}"> @lang('Contact') </a></li>
+        <li class=" {{setActive('portfolio')}}"><a href="{{ route('portfolio') }}"> @lang('Portfolio') </a></li>
+        <li class=" {{setActive('about')}}"><a href="{{ route('about') }}"> @lang('Á propos') </a></li>
 
     </ul>
 </nav>
